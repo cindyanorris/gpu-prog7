@@ -1,0 +1,21 @@
+1) Using the value 200,000,000 for the -v parameter, run the program
+on with the values of 5, 11, and 17 for the -m parameter.
+Be sure that the code was compiled with the optimizations turned on.
+Indicate the speedups:
+
+-m     Global Memory     Shared Memory         Constant Memory
+5
+11
+17
+
+2) You should see that for all of these the speedups increase
+with the increasing mask size. Why?
+
+3) You should also see that for a larger mask size, the Shared
+Memory and Constant Memory provide better performance than the Global
+Memory.  Why?
+
+4) You should also see that the use of Shared or
+Constant Memory for the convolution mask made little difference.
+When would using Constant Memory provide better performance?
+
